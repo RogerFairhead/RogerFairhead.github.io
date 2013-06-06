@@ -1,0 +1,102 @@
+/* Fonts */
+    
+    @font-face {
+      font-family: 'FoundationIconsGeneral';
+      src: url('../fonts/foundation-icons-general/foundation-icons-general.eot');
+      src: url('../fonts/foundation-icons-general/foundation-icons-general.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/foundation-icons-general/foundation-icons-general.woff') format('woff'),
+           url('../fonts/foundation-icons-general/foundation-icons-general.ttf') format('truetype'),
+           url('../fonts/foundation-icons-general/foundation-icons-general.svg#FoundationIconsGeneral.eot') format('svg');
+      font-weight: normal;
+      font-style: normal; }
+    @font-face {
+      font-family: 'FoundationIconsEnclosed';
+      src: url('../fonts/foundation-icons-general-enclosed/foundation-icons-general-enclosed.eot');
+      src: url('../fonts/foundation-icons-general-enclosed/foundation-icons-general-enclosed.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/foundation-icons-general-enclosed/foundation-icons-general-enclosed.woff') format('woff'),
+           url('../fonts/foundation-icons-general-enclosed/foundation-icons-general-enclosed.ttf') format('truetype'),
+           url('../fonts/foundation-icons-general-enclosed/foundation-icons-general-enclosed.svg#FoundationIconsGeneralEnclosed.eot') format('svg');
+      font-weight: normal;
+      font-style: normal; }
+    .glyph.enclosed { font-family: "FoundationIconsEnclosed" !important; }
+    .glyph { cursor: default; font-size: 16px; line-height: 1; font-style: normal; }
+    .glyph.general { font-family: "FoundationIconsGeneral"; }
+    a .glyph { cursor: pointer; }
+    
+     body                { font-weight: 300;
+                           font-family: "proxima-nova"; }
+     p                   { font-size: 1.2em;            }
+                           
+     h1,h2,h3,h4,h5,h6   { font-weight: 300;
+                           line-height: 1.1em;          }
+                           
+     h1                  { font-size: 42px;
+                           letter-spacing: -1px;        }
+                           
+     h2                  { font-weight: 700;
+                           font-family: "facitweb";
+                           font-size: 30px;
+                           font-size: 3rem;
+                           letter-spacing: -1px;        }
+                           
+    .larger              { font-size: 1.5em;
+                           letter-spacing: -1px;        }
+    .smaller             { font-size: 0.85em;           }
+    .glyph               { font-size: 1em;              }
+    .big-button          { font-size: 80px;
+                           font-size: 8rem;
+                           margin: 0 5px;
+                           display: inline-block;
+                           height: 105px;                }
+    .raise               { margin-top: -20px;           }
+  
+  /* Colors */
+  
+     body                { color: #3b3939;              }
+    .lighter             { color: #8a8a8a;              }
+    .red, a              { color: #ff2324;              }
+    .lred                { color: #fff7f7;              }
+    .dred                { color: #725050;              }
+    .white               { color: #fff;                 }
+    .bg-red              { background-color: #ff2324;   }
+    .bg-lred             { background-color: #fff7f7;   }
+     a:hover             { color: #000;                 }
+  
+  
+  /* Borders */
+
+    .border-top          { border-top-width: 1px;
+                           border-top-style: solid;     }
+    .border-bottom       { border-bottom-width: 1px;
+                           border-bottom-style: solid;  }
+    .b-red               { border-color: #ff2324;       }
+    .b-black             { border-color: #000;          }
+  
+  
+  /* Repeatables */
+    .margin              { margin: 35px;                }
+    .margin-top          { margin-top: 35px;            }
+    .margin-bottom       { margin-bottom: 35px;         }
+    .padding             { padding: 70px;               }
+    .padding-top         { padding-top: 70px;           }
+    .padding-bottom      { padding-bottom: 70px;        }
+    .bleed               { margin: 0 -20px;
+                           padding: 0 20px;             }
+  
+  
+  /* Elements */
+
+    .logo         { height: 30px; width: 87px; }
+    .no-svg .logo { background: url("../images/shared/logo.png") no-repeat; }
+    .svg .logo    { background: url("../images/shared/logo.svg") no-repeat; }
+    
+    .section-2 {
+      background: url("../images/shared/section-2.jpg") no-repeat center top #656364; }
+  
+  
+  /* Interactivity */
+  
+    .dim                 { opacity: 0.7;                }
+  
+  @media only screen and (min-width: 48em) {   
+    .larger              { font-size: 2em;             }}
